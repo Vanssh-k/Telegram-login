@@ -9,6 +9,6 @@ bot.start((ctx) => {
     console.log(ctx.chat);
 })
 
-// bot.telegram.sendMessage(914419568, "hey")
+bot.telegram.sendMessage("914419568", "hey")
 
 bot.launch()
